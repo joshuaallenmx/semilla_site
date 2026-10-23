@@ -1,0 +1,29 @@
+{
+  "name": "semilla_site",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "tokens": "newtone-tokens --seed src/seed.json --targets newtone.css,fonts.css --out src/tokens --icons src,node_modules/@newtone-dev/ui-react-web/dist",
+    "dev": "node scripts/dev.mjs",
+    "build": "npm run tokens && next build",
+    "start": "next start",
+    "typecheck": "tsc --noEmit",
+    "load-content": "node --env-file-if-exists=.env.local scripts/load-content.mjs"
+  },
+  "dependencies": {
+    "@newtone-dev/ui-react-web": "0.40.1",
+    "@supabase/supabase-js": "^2.118.0",
+    "next": "^16.4.2",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0",
+    "server-only": "^0.0.1"
+  },
+  "devDependencies": {
+    "@newtone-dev/ui-tokens": "0.41.1",
+    "@types/node": "^22.10.0",
+    "@types/react": "^19.2.0",
+    "@types/react-dom": "^19.2.0",
+    "typescript": "^5.7.2"
+  }
+}

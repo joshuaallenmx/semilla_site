@@ -1,0 +1,89 @@
+{
+    "color": {
+        "system": {
+            "neutral": { "h": 160, "c": 0.06 },
+            "accent": {
+                "h": 160,
+                "c": 0.12,
+                "key": { "light": 23, "dark": 0 }
+            },
+            "support": {
+                "h": 320,
+                "c": 0.24,
+                "key": { "light": 23, "dark": 0 }
+            },
+            "success": {
+                "h": 144,
+                "c": 0.72,
+                "key": { "light": 12.0, "dark": 11.0 }
+            },
+            "warning": {
+                "h": 64,
+                "c": 0.96,
+                "key": { "light": 12.0, "dark": 11.0 }
+            },
+            "error": {
+                "h": 24,
+                "c": 0.72,
+                "key": { "light": 12.0, "dark": 11.0 }
+            }
+        },
+
+        "custom": {
+            "red": {
+                "h": 24,
+                "c": 0.60,
+                "key": { "light": 9.5, "dark": 8.0 }
+            },
+            "orange": {
+                "h": 64,
+                "c": 0.76,
+                "key": { "light": 9.5, "dark": 8.0 }
+            },
+            "yellow": {
+                "h": 96,
+                "c": 0.76,
+                "key": { "light": 9.5, "dark": 8.0 }
+            },
+            "green": {
+                "h": 144,
+                "c": 0.60,
+                "key": { "light": 9.5, "dark": 8.0 }
+            },
+            "teal": {
+                "h": 192,
+                "c": 0.64,
+                "key": { "light": 9.5, "dark": 8.0 }
+            },
+            "blue": {
+                "h": 264,
+                "c": 0.64,
+                "key": { "light": 9.5, "dark": 8.0 }
+            },
+            "purple": {
+                "h": 312,
+                "c": 0.52,
+                "key": { "light": 9.5, "dark": 8.0 }
+            },
+            "pink": {
+                "h": 336,
+                "c": 0.60,
+                "key": { "light": 9.5, "dark": 8.0 }
+            }
+        }
+    },
+
+    "font": {
+        "body": {
+            "family": "Rethink Sans",
+            "weight": {
+                "regular": 400,
+                "medium": 500,
+                "semibold": 600,
+                "bold": 700
+            }
+        }
+    },
+
+    "icon": { "family": "Material Symbols Rounded", "weight": 300 }
+}

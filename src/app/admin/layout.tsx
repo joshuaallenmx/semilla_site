@@ -10,7 +10,7 @@ import '@newtone-dev/ui-react-web/text.css'
 
 import type { ReactNode } from 'react'
 
-export const metadata = { title: 'Admin', robots: { index: false } }
+export const metadata = { title: 'Admin', description: 'Where the owner edits this site.', robots: { index: false } }
 
 export default function AdminLayout({ children }: { children: ReactNode }) {
     return (

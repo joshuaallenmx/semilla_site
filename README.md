@@ -1,7 +1,7 @@
-# A semilla site
+# A HuevOS site
 
-A person's website, made with semilla: Next.js, on Newtone, with its content in a CMS. **It belongs to its
-owner**: their repository, their database, their hosting. It runs without semilla.
+A person's website, made with HuevOS: Next.js, on Newtone, with its content in a CMS. **It belongs to its
+owner**: their repository, their database, their hosting. It runs without HuevOS.
 
 - `npm run dev` serves it (and rebuilds the tokens when `src/seed.json` changes); `npm run build` builds it.
 - `/admin` is where the owner edits the content, once the site has its own database. Without one, `/admin` is not there (not found), and nothing links to it.

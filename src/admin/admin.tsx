@@ -1,6 +1,6 @@
 'use client'
 // The site's own admin: its owner signs in with a magic link and edits the content in the site's database,
-// every singleton and collection of model.json, in every language. It works without semilla.
+// every singleton and collection of model.json, in every language. It works without HuevOS.
 import { useEffect, useState, type FormEvent } from 'react'
 import type { Session } from '@supabase/supabase-js'
 import { Button } from '@newtone-dev/ui-react-web/button'

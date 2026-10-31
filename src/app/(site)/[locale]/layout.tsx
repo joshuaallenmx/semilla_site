@@ -1,5 +1,5 @@
 // The frame every page sits in: the language, the stylesheets, Newtone's Site with the bar and the footer.
-// Pages are app/(site)/[locale]/**/page.tsx and are written by semilla's builder, assembled the way
+// Pages are app/(site)/[locale]/**/page.tsx and are written by HuevOS's builder, assembled the way
 // Newtone's assembling-a-site.md says, with every word read from the content source.
 //
 // The import order matters: fonts.css first (the only sheet with an @import url), then the generated

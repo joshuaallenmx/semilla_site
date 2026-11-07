@@ -1597,6 +1597,12 @@
   --newtone-text-field-box-disabled-border: var(--newtone-role-divider-secondary);
   --newtone-text-field-radius: 999px;
   --newtone-text-field-multiline-radius: var(--newtone-radius-md);
+  --newtone-text-field-list-radius: var(--newtone-radius-md);
+  --newtone-text-field-list-padding: var(--newtone-space-2);
+  --newtone-text-field-list-offset: var(--newtone-space-1);
+  --newtone-text-field-list-fill: var(--newtone-role-surface-primary);
+  --newtone-text-field-list-border: var(--newtone-role-divider-secondary);
+  --newtone-text-field-list-active-fill: var(--newtone-role-surface-secondary);
   --newtone-text-field-focus-ring: var(--newtone-role-text-accent);
 
   /* video-lightbox */
@@ -2652,6 +2658,9 @@
   --newtone-text-field-box-disabled-fill: var(--newtone-role-surface-secondary);
   --newtone-text-field-box-disabled-text: var(--newtone-role-text-disabled);
   --newtone-text-field-box-disabled-border: var(--newtone-role-divider-secondary);
+  --newtone-text-field-list-fill: var(--newtone-role-surface-primary);
+  --newtone-text-field-list-border: var(--newtone-role-divider-secondary);
+  --newtone-text-field-list-active-fill: var(--newtone-role-surface-secondary);
   --newtone-text-field-focus-ring: var(--newtone-role-text-accent);
 }
 
@@ -2977,6 +2986,9 @@
   --newtone-text-field-box-disabled-fill: var(--newtone-role-surface-secondary);
   --newtone-text-field-box-disabled-text: var(--newtone-role-text-disabled);
   --newtone-text-field-box-disabled-border: var(--newtone-role-divider-secondary);
+  --newtone-text-field-list-fill: var(--newtone-role-surface-primary);
+  --newtone-text-field-list-border: var(--newtone-role-divider-secondary);
+  --newtone-text-field-list-active-fill: var(--newtone-role-surface-secondary);
   --newtone-text-field-focus-ring: var(--newtone-role-text-accent);
 }
 
@@ -3302,6 +3314,9 @@
   --newtone-text-field-box-disabled-fill: var(--newtone-role-surface-secondary);
   --newtone-text-field-box-disabled-text: var(--newtone-role-text-disabled);
   --newtone-text-field-box-disabled-border: var(--newtone-role-divider-secondary);
+  --newtone-text-field-list-fill: var(--newtone-role-surface-primary);
+  --newtone-text-field-list-border: var(--newtone-role-divider-secondary);
+  --newtone-text-field-list-active-fill: var(--newtone-role-surface-secondary);
   --newtone-text-field-focus-ring: var(--newtone-role-text-accent);
 }
 
@@ -3627,6 +3642,9 @@
   --newtone-text-field-box-disabled-fill: var(--newtone-role-surface-secondary);
   --newtone-text-field-box-disabled-text: var(--newtone-role-text-disabled);
   --newtone-text-field-box-disabled-border: var(--newtone-role-divider-secondary);
+  --newtone-text-field-list-fill: var(--newtone-role-surface-primary);
+  --newtone-text-field-list-border: var(--newtone-role-divider-secondary);
+  --newtone-text-field-list-active-fill: var(--newtone-role-surface-secondary);
   --newtone-text-field-focus-ring: var(--newtone-role-text-accent);
 }
 
@@ -3952,6 +3970,9 @@
   --newtone-text-field-box-disabled-fill: var(--newtone-role-surface-secondary);
   --newtone-text-field-box-disabled-text: var(--newtone-role-text-disabled);
   --newtone-text-field-box-disabled-border: var(--newtone-role-divider-secondary);
+  --newtone-text-field-list-fill: var(--newtone-role-surface-primary);
+  --newtone-text-field-list-border: var(--newtone-role-divider-secondary);
+  --newtone-text-field-list-active-fill: var(--newtone-role-surface-secondary);
   --newtone-text-field-focus-ring: var(--newtone-role-text-accent);
 }
 
@@ -4277,6 +4298,9 @@
   --newtone-text-field-box-disabled-fill: var(--newtone-role-surface-secondary);
   --newtone-text-field-box-disabled-text: var(--newtone-role-text-disabled);
   --newtone-text-field-box-disabled-border: var(--newtone-role-divider-secondary);
+  --newtone-text-field-list-fill: var(--newtone-role-surface-primary);
+  --newtone-text-field-list-border: var(--newtone-role-divider-secondary);
+  --newtone-text-field-list-active-fill: var(--newtone-role-surface-secondary);
   --newtone-text-field-focus-ring: var(--newtone-role-text-accent);
 }
 
@@ -4602,6 +4626,9 @@
   --newtone-text-field-box-disabled-fill: var(--newtone-role-surface-secondary);
   --newtone-text-field-box-disabled-text: var(--newtone-role-text-disabled);
   --newtone-text-field-box-disabled-border: var(--newtone-role-divider-secondary);
+  --newtone-text-field-list-fill: var(--newtone-role-surface-primary);
+  --newtone-text-field-list-border: var(--newtone-role-divider-secondary);
+  --newtone-text-field-list-active-fill: var(--newtone-role-surface-secondary);
   --newtone-text-field-focus-ring: var(--newtone-role-text-accent);
 }
 
@@ -4927,6 +4954,9 @@
   --newtone-text-field-box-disabled-fill: var(--newtone-role-surface-secondary);
   --newtone-text-field-box-disabled-text: var(--newtone-role-text-disabled);
   --newtone-text-field-box-disabled-border: var(--newtone-role-divider-secondary);
+  --newtone-text-field-list-fill: var(--newtone-role-surface-primary);
+  --newtone-text-field-list-border: var(--newtone-role-divider-secondary);
+  --newtone-text-field-list-active-fill: var(--newtone-role-surface-secondary);
   --newtone-text-field-focus-ring: var(--newtone-role-text-accent);
 }
 
@@ -5252,6 +5282,9 @@
   --newtone-text-field-box-disabled-fill: var(--newtone-role-surface-secondary);
   --newtone-text-field-box-disabled-text: var(--newtone-role-text-disabled);
   --newtone-text-field-box-disabled-border: var(--newtone-role-divider-secondary);
+  --newtone-text-field-list-fill: var(--newtone-role-surface-primary);
+  --newtone-text-field-list-border: var(--newtone-role-divider-secondary);
+  --newtone-text-field-list-active-fill: var(--newtone-role-surface-secondary);
   --newtone-text-field-focus-ring: var(--newtone-role-text-accent);
 }
 
@@ -5577,6 +5610,9 @@
   --newtone-text-field-box-disabled-fill: var(--newtone-role-surface-secondary);
   --newtone-text-field-box-disabled-text: var(--newtone-role-text-disabled);
   --newtone-text-field-box-disabled-border: var(--newtone-role-divider-secondary);
+  --newtone-text-field-list-fill: var(--newtone-role-surface-primary);
+  --newtone-text-field-list-border: var(--newtone-role-divider-secondary);
+  --newtone-text-field-list-active-fill: var(--newtone-role-surface-secondary);
   --newtone-text-field-focus-ring: var(--newtone-role-text-accent);
 }
 
@@ -5902,6 +5938,9 @@
   --newtone-text-field-box-disabled-fill: var(--newtone-role-surface-secondary);
   --newtone-text-field-box-disabled-text: var(--newtone-role-text-disabled);
   --newtone-text-field-box-disabled-border: var(--newtone-role-divider-secondary);
+  --newtone-text-field-list-fill: var(--newtone-role-surface-primary);
+  --newtone-text-field-list-border: var(--newtone-role-divider-secondary);
+  --newtone-text-field-list-active-fill: var(--newtone-role-surface-secondary);
   --newtone-text-field-focus-ring: var(--newtone-role-text-accent);
 }
 
@@ -6227,6 +6266,9 @@
   --newtone-text-field-box-disabled-fill: var(--newtone-role-surface-secondary);
   --newtone-text-field-box-disabled-text: var(--newtone-role-text-disabled);
   --newtone-text-field-box-disabled-border: var(--newtone-role-divider-secondary);
+  --newtone-text-field-list-fill: var(--newtone-role-surface-primary);
+  --newtone-text-field-list-border: var(--newtone-role-divider-secondary);
+  --newtone-text-field-list-active-fill: var(--newtone-role-surface-secondary);
   --newtone-text-field-focus-ring: var(--newtone-role-text-accent);
 }
 
@@ -6552,6 +6594,9 @@
   --newtone-text-field-box-disabled-fill: var(--newtone-role-surface-secondary);
   --newtone-text-field-box-disabled-text: var(--newtone-role-text-disabled);
   --newtone-text-field-box-disabled-border: var(--newtone-role-divider-secondary);
+  --newtone-text-field-list-fill: var(--newtone-role-surface-primary);
+  --newtone-text-field-list-border: var(--newtone-role-divider-secondary);
+  --newtone-text-field-list-active-fill: var(--newtone-role-surface-secondary);
   --newtone-text-field-focus-ring: var(--newtone-role-text-accent);
 }
 
@@ -6877,6 +6922,9 @@
   --newtone-text-field-box-disabled-fill: var(--newtone-role-surface-secondary);
   --newtone-text-field-box-disabled-text: var(--newtone-role-text-disabled);
   --newtone-text-field-box-disabled-border: var(--newtone-role-divider-secondary);
+  --newtone-text-field-list-fill: var(--newtone-role-surface-primary);
+  --newtone-text-field-list-border: var(--newtone-role-divider-secondary);
+  --newtone-text-field-list-active-fill: var(--newtone-role-surface-secondary);
   --newtone-text-field-focus-ring: var(--newtone-role-text-accent);
 }
 
@@ -7202,6 +7250,9 @@
   --newtone-text-field-box-disabled-fill: var(--newtone-role-surface-secondary);
   --newtone-text-field-box-disabled-text: var(--newtone-role-text-disabled);
   --newtone-text-field-box-disabled-border: var(--newtone-role-divider-secondary);
+  --newtone-text-field-list-fill: var(--newtone-role-surface-primary);
+  --newtone-text-field-list-border: var(--newtone-role-divider-secondary);
+  --newtone-text-field-list-active-fill: var(--newtone-role-surface-secondary);
   --newtone-text-field-focus-ring: var(--newtone-role-text-accent);
 }
 
@@ -7527,6 +7578,9 @@
   --newtone-text-field-box-disabled-fill: var(--newtone-role-surface-secondary);
   --newtone-text-field-box-disabled-text: var(--newtone-role-text-disabled);
   --newtone-text-field-box-disabled-border: var(--newtone-role-divider-secondary);
+  --newtone-text-field-list-fill: var(--newtone-role-surface-primary);
+  --newtone-text-field-list-border: var(--newtone-role-divider-secondary);
+  --newtone-text-field-list-active-fill: var(--newtone-role-surface-secondary);
   --newtone-text-field-focus-ring: var(--newtone-role-text-accent);
 }
 
@@ -7852,6 +7906,9 @@
   --newtone-text-field-box-disabled-fill: var(--newtone-role-surface-secondary);
   --newtone-text-field-box-disabled-text: var(--newtone-role-text-disabled);
   --newtone-text-field-box-disabled-border: var(--newtone-role-divider-secondary);
+  --newtone-text-field-list-fill: var(--newtone-role-surface-primary);
+  --newtone-text-field-list-border: var(--newtone-role-divider-secondary);
+  --newtone-text-field-list-active-fill: var(--newtone-role-surface-secondary);
   --newtone-text-field-focus-ring: var(--newtone-role-text-accent);
 }
 
@@ -8177,6 +8234,9 @@
   --newtone-text-field-box-disabled-fill: var(--newtone-role-surface-secondary);
   --newtone-text-field-box-disabled-text: var(--newtone-role-text-disabled);
   --newtone-text-field-box-disabled-border: var(--newtone-role-divider-secondary);
+  --newtone-text-field-list-fill: var(--newtone-role-surface-primary);
+  --newtone-text-field-list-border: var(--newtone-role-divider-secondary);
+  --newtone-text-field-list-active-fill: var(--newtone-role-surface-secondary);
   --newtone-text-field-focus-ring: var(--newtone-role-text-accent);
 }
 
@@ -8502,6 +8562,9 @@
   --newtone-text-field-box-disabled-fill: var(--newtone-role-surface-secondary);
   --newtone-text-field-box-disabled-text: var(--newtone-role-text-disabled);
   --newtone-text-field-box-disabled-border: var(--newtone-role-divider-secondary);
+  --newtone-text-field-list-fill: var(--newtone-role-surface-primary);
+  --newtone-text-field-list-border: var(--newtone-role-divider-secondary);
+  --newtone-text-field-list-active-fill: var(--newtone-role-surface-secondary);
   --newtone-text-field-focus-ring: var(--newtone-role-text-accent);
 }
 
@@ -8827,6 +8890,9 @@
   --newtone-text-field-box-disabled-fill: var(--newtone-role-surface-secondary);
   --newtone-text-field-box-disabled-text: var(--newtone-role-text-disabled);
   --newtone-text-field-box-disabled-border: var(--newtone-role-divider-secondary);
+  --newtone-text-field-list-fill: var(--newtone-role-surface-primary);
+  --newtone-text-field-list-border: var(--newtone-role-divider-secondary);
+  --newtone-text-field-list-active-fill: var(--newtone-role-surface-secondary);
   --newtone-text-field-focus-ring: var(--newtone-role-text-accent);
 }
 
@@ -9152,6 +9218,9 @@
   --newtone-text-field-box-disabled-fill: var(--newtone-role-surface-secondary);
   --newtone-text-field-box-disabled-text: var(--newtone-role-text-disabled);
   --newtone-text-field-box-disabled-border: var(--newtone-role-divider-secondary);
+  --newtone-text-field-list-fill: var(--newtone-role-surface-primary);
+  --newtone-text-field-list-border: var(--newtone-role-divider-secondary);
+  --newtone-text-field-list-active-fill: var(--newtone-role-surface-secondary);
   --newtone-text-field-focus-ring: var(--newtone-role-text-accent);
 }
 
@@ -9477,6 +9546,9 @@
   --newtone-text-field-box-disabled-fill: var(--newtone-role-surface-secondary);
   --newtone-text-field-box-disabled-text: var(--newtone-role-text-disabled);
   --newtone-text-field-box-disabled-border: var(--newtone-role-divider-secondary);
+  --newtone-text-field-list-fill: var(--newtone-role-surface-primary);
+  --newtone-text-field-list-border: var(--newtone-role-divider-secondary);
+  --newtone-text-field-list-active-fill: var(--newtone-role-surface-secondary);
   --newtone-text-field-focus-ring: var(--newtone-role-text-accent);
 }
 
@@ -9802,6 +9874,9 @@
   --newtone-text-field-box-disabled-fill: var(--newtone-role-surface-secondary);
   --newtone-text-field-box-disabled-text: var(--newtone-role-text-disabled);
   --newtone-text-field-box-disabled-border: var(--newtone-role-divider-secondary);
+  --newtone-text-field-list-fill: var(--newtone-role-surface-primary);
+  --newtone-text-field-list-border: var(--newtone-role-divider-secondary);
+  --newtone-text-field-list-active-fill: var(--newtone-role-surface-secondary);
   --newtone-text-field-focus-ring: var(--newtone-role-text-accent);
 }
 
@@ -10127,6 +10202,9 @@
   --newtone-text-field-box-disabled-fill: var(--newtone-role-surface-secondary);
   --newtone-text-field-box-disabled-text: var(--newtone-role-text-disabled);
   --newtone-text-field-box-disabled-border: var(--newtone-role-divider-secondary);
+  --newtone-text-field-list-fill: var(--newtone-role-surface-primary);
+  --newtone-text-field-list-border: var(--newtone-role-divider-secondary);
+  --newtone-text-field-list-active-fill: var(--newtone-role-surface-secondary);
   --newtone-text-field-focus-ring: var(--newtone-role-text-accent);
 }
 
@@ -10452,6 +10530,9 @@
   --newtone-text-field-box-disabled-fill: var(--newtone-role-surface-secondary);
   --newtone-text-field-box-disabled-text: var(--newtone-role-text-disabled);
   --newtone-text-field-box-disabled-border: var(--newtone-role-divider-secondary);
+  --newtone-text-field-list-fill: var(--newtone-role-surface-primary);
+  --newtone-text-field-list-border: var(--newtone-role-divider-secondary);
+  --newtone-text-field-list-active-fill: var(--newtone-role-surface-secondary);
   --newtone-text-field-focus-ring: var(--newtone-role-text-accent);
 }
 
@@ -10777,6 +10858,9 @@
   --newtone-text-field-box-disabled-fill: var(--newtone-role-surface-secondary);
   --newtone-text-field-box-disabled-text: var(--newtone-role-text-disabled);
   --newtone-text-field-box-disabled-border: var(--newtone-role-divider-secondary);
+  --newtone-text-field-list-fill: var(--newtone-role-surface-primary);
+  --newtone-text-field-list-border: var(--newtone-role-divider-secondary);
+  --newtone-text-field-list-active-fill: var(--newtone-role-surface-secondary);
   --newtone-text-field-focus-ring: var(--newtone-role-text-accent);
 }
 
@@ -11102,6 +11186,9 @@
   --newtone-text-field-box-disabled-fill: var(--newtone-role-surface-secondary);
   --newtone-text-field-box-disabled-text: var(--newtone-role-text-disabled);
   --newtone-text-field-box-disabled-border: var(--newtone-role-divider-secondary);
+  --newtone-text-field-list-fill: var(--newtone-role-surface-primary);
+  --newtone-text-field-list-border: var(--newtone-role-divider-secondary);
+  --newtone-text-field-list-active-fill: var(--newtone-role-surface-secondary);
   --newtone-text-field-focus-ring: var(--newtone-role-text-accent);
 }
 
@@ -11427,6 +11514,9 @@
   --newtone-text-field-box-disabled-fill: var(--newtone-role-surface-secondary);
   --newtone-text-field-box-disabled-text: var(--newtone-role-text-disabled);
   --newtone-text-field-box-disabled-border: var(--newtone-role-divider-secondary);
+  --newtone-text-field-list-fill: var(--newtone-role-surface-primary);
+  --newtone-text-field-list-border: var(--newtone-role-divider-secondary);
+  --newtone-text-field-list-active-fill: var(--newtone-role-surface-secondary);
   --newtone-text-field-focus-ring: var(--newtone-role-text-accent);
 }
 
@@ -11752,6 +11842,9 @@
   --newtone-text-field-box-disabled-fill: var(--newtone-role-surface-secondary);
   --newtone-text-field-box-disabled-text: var(--newtone-role-text-disabled);
   --newtone-text-field-box-disabled-border: var(--newtone-role-divider-secondary);
+  --newtone-text-field-list-fill: var(--newtone-role-surface-primary);
+  --newtone-text-field-list-border: var(--newtone-role-divider-secondary);
+  --newtone-text-field-list-active-fill: var(--newtone-role-surface-secondary);
   --newtone-text-field-focus-ring: var(--newtone-role-text-accent);
 }
 
@@ -12077,6 +12170,9 @@
   --newtone-text-field-box-disabled-fill: var(--newtone-role-surface-secondary);
   --newtone-text-field-box-disabled-text: var(--newtone-role-text-disabled);
   --newtone-text-field-box-disabled-border: var(--newtone-role-divider-secondary);
+  --newtone-text-field-list-fill: var(--newtone-role-surface-primary);
+  --newtone-text-field-list-border: var(--newtone-role-divider-secondary);
+  --newtone-text-field-list-active-fill: var(--newtone-role-surface-secondary);
   --newtone-text-field-focus-ring: var(--newtone-role-text-accent);
 }
 
@@ -12402,6 +12498,9 @@
   --newtone-text-field-box-disabled-fill: var(--newtone-role-surface-secondary);
   --newtone-text-field-box-disabled-text: var(--newtone-role-text-disabled);
   --newtone-text-field-box-disabled-border: var(--newtone-role-divider-secondary);
+  --newtone-text-field-list-fill: var(--newtone-role-surface-primary);
+  --newtone-text-field-list-border: var(--newtone-role-divider-secondary);
+  --newtone-text-field-list-active-fill: var(--newtone-role-surface-secondary);
   --newtone-text-field-focus-ring: var(--newtone-role-text-accent);
 }
 
@@ -12727,6 +12826,9 @@
   --newtone-text-field-box-disabled-fill: var(--newtone-role-surface-secondary);
   --newtone-text-field-box-disabled-text: var(--newtone-role-text-disabled);
   --newtone-text-field-box-disabled-border: var(--newtone-role-divider-secondary);
+  --newtone-text-field-list-fill: var(--newtone-role-surface-primary);
+  --newtone-text-field-list-border: var(--newtone-role-divider-secondary);
+  --newtone-text-field-list-active-fill: var(--newtone-role-surface-secondary);
   --newtone-text-field-focus-ring: var(--newtone-role-text-accent);
 }
 
@@ -13052,6 +13154,9 @@
   --newtone-text-field-box-disabled-fill: var(--newtone-role-surface-secondary);
   --newtone-text-field-box-disabled-text: var(--newtone-role-text-disabled);
   --newtone-text-field-box-disabled-border: var(--newtone-role-divider-secondary);
+  --newtone-text-field-list-fill: var(--newtone-role-surface-primary);
+  --newtone-text-field-list-border: var(--newtone-role-divider-secondary);
+  --newtone-text-field-list-active-fill: var(--newtone-role-surface-secondary);
   --newtone-text-field-focus-ring: var(--newtone-role-text-accent);
 }
 
@@ -13377,6 +13482,9 @@
   --newtone-text-field-box-disabled-fill: var(--newtone-role-surface-secondary);
   --newtone-text-field-box-disabled-text: var(--newtone-role-text-disabled);
   --newtone-text-field-box-disabled-border: var(--newtone-role-divider-secondary);
+  --newtone-text-field-list-fill: var(--newtone-role-surface-primary);
+  --newtone-text-field-list-border: var(--newtone-role-divider-secondary);
+  --newtone-text-field-list-active-fill: var(--newtone-role-surface-secondary);
   --newtone-text-field-focus-ring: var(--newtone-role-text-accent);
 }
 
@@ -13702,6 +13810,9 @@
   --newtone-text-field-box-disabled-fill: var(--newtone-role-surface-secondary);
   --newtone-text-field-box-disabled-text: var(--newtone-role-text-disabled);
   --newtone-text-field-box-disabled-border: var(--newtone-role-divider-secondary);
+  --newtone-text-field-list-fill: var(--newtone-role-surface-primary);
+  --newtone-text-field-list-border: var(--newtone-role-divider-secondary);
+  --newtone-text-field-list-active-fill: var(--newtone-role-surface-secondary);
   --newtone-text-field-focus-ring: var(--newtone-role-text-accent);
 }
 
@@ -14027,5 +14138,8 @@
   --newtone-text-field-box-disabled-fill: var(--newtone-role-surface-secondary);
   --newtone-text-field-box-disabled-text: var(--newtone-role-text-disabled);
   --newtone-text-field-box-disabled-border: var(--newtone-role-divider-secondary);
+  --newtone-text-field-list-fill: var(--newtone-role-surface-primary);
+  --newtone-text-field-list-border: var(--newtone-role-divider-secondary);
+  --newtone-text-field-list-active-fill: var(--newtone-role-surface-secondary);
   --newtone-text-field-focus-ring: var(--newtone-role-text-accent);
 }

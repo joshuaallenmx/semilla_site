@@ -30,42 +30,42 @@
         },
 
         "custom": {
-            "red": {
+            "red":  {
                 "h": 24,
                 "c": 0.60,
                 "key": { "light": 9.5, "dark": 8.0 }
             },
-            "orange": {
+            "orange":  {
                 "h": 64,
                 "c": 0.76,
                 "key": { "light": 9.5, "dark": 8.0 }
             },
-            "yellow": {
+            "yellow":  {
                 "h": 96,
                 "c": 0.76,
                 "key": { "light": 9.5, "dark": 8.0 }
             },
-            "green": {
+            "green":  {
                 "h": 144,
                 "c": 0.60,
                 "key": { "light": 9.5, "dark": 8.0 }
             },
-            "teal": {
+            "cyan":  {
                 "h": 192,
                 "c": 0.64,
                 "key": { "light": 9.5, "dark": 8.0 }
             },
-            "blue": {
+            "blue":  {
                 "h": 264,
                 "c": 0.64,
                 "key": { "light": 9.5, "dark": 8.0 }
             },
-            "purple": {
+            "purple":  {
                 "h": 312,
                 "c": 0.52,
                 "key": { "light": 9.5, "dark": 8.0 }
             },
-            "pink": {
+            "magenta": {
                 "h": 336,
                 "c": 0.60,
                 "key": { "light": 9.5, "dark": 8.0 }

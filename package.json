@@ -12,7 +12,7 @@
     "load-content": "node --env-file-if-exists=.env.local scripts/load-content.mjs"
   },
   "dependencies": {
-    "@newtone-dev/ui-react-web": "0.42.0",
+    "@newtone-dev/ui-react-web": "0.43.0",
     "@supabase/supabase-js": "^2.118.0",
     "next": "^16.4.2",
     "react": "^19.2.0",
@@ -20,7 +20,7 @@
     "server-only": "^0.0.1"
   },
   "devDependencies": {
-    "@newtone-dev/ui-tokens": "0.42.0",
+    "@newtone-dev/ui-tokens": "0.43.0",
     "@types/node": "^22.10.0",
     "@types/react": "^19.2.0",
     "@types/react-dom": "^19.2.0",

@@ -35,6 +35,8 @@ watch(SEED, () => {
     pending = setTimeout(() => { if (rebuild()) console.log('\n  seed changed: tokens rebuilt\n') }, 50)
 })
 
-const next = spawn('npx', ['next', 'dev'], { stdio: 'inherit', cwd: here })
+// This machine only: on every interface, anyone on the same Wi-Fi reaches the dev server, its source and its server
+// routes. LISTEN_HOST names another address, e.g. 0.0.0.0 to test from a phone on a network you trust.
+const next = spawn('npx', ['next', 'dev', '--hostname', process.env.LISTEN_HOST || '127.0.0.1'], { stdio: 'inherit', cwd: here })
 next.on('exit', (code, signal) => process.exit(signal ? 1 : (code ?? 0)))
 for (const sig of ['SIGINT', 'SIGTERM']) process.on(sig, () => next.kill(sig))
